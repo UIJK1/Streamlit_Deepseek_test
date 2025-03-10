@@ -4,7 +4,6 @@ import streamlit as st
 import os
 import pickle
 from openai import OpenAI
-from rag_utils import retrieve_documents
 
 # 缓存目录
 CACHE_DIR = ".cache"
