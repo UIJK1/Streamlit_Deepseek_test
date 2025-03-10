@@ -15,3 +15,6 @@ st.set_page_config(page_title="欢迎", page_icon="🤖", layout="wide")
 st.title("欢迎使用小卢AI")
 with st.container():
         st.warning("请在API Key设置页面输入API Key")
+        start = st.button("准备开始")
+        if start:
+            st.switch_page("pages/API_Key.py")
